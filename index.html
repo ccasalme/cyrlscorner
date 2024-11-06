@@ -12,8 +12,17 @@
   <title>Movie Matchmaker</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <div class="movie-container">
+    <header>
+        <h1>Movie Matchmaker</h1>
+        <div class="movie-container">
+        <!-- Search Bar and Filter -->
+        <div class="search-container">
+        <input type="text" placeholder="Search" class="search-bar">
+        <button class="filter-button">Filter</button>
+        </div>
+
     <!-- Navigation Tabs -->
     <nav class="nav-tabs">
       <a href="#" class="tab active">New Releases</a>
@@ -35,44 +44,64 @@
             <span class="duration">Duration</span>
           </div>
           <p class="actors">Actors</p>
+          <button class="more-details-button">More Details</button>
         </div>
         <span class="movie-score">⭐ movie-score</span>
       </li>
 
-      <!-- Movie Item 2 -->
-      <li class="movie-item">
-        <img src="image.jpg" alt="Alt name here" class="movie-poster">
-        <div class="movie-details">
-          <h3 class="movie-title">Movie Name Here</h3>
-          <div class="movie-info">
-            <span class="rating">Rating</span>
-            <span class="year">Year</span>
-            <span class="genre">Genre</span>
-            <span class="duration">Duration</span>
-          </div>
-          <p class="actors">Actors</p>
-        </div>
-        <span class="movie-score">⭐ movie-score</span>
-      </li>
+      <!-- Repeat similar structure for other movies -->
 
-      <!-- Movie Item 3 -->
-      <li class="movie-item">
-        <img src="image.jpg" alt="Alt name here" class" class="movie-poster">
-        <div class="movie-details">
-          <h3 class="movie-title">Movie Name Here</h3>
-          <div class="movie-info">
-            <span class="rating">Rating</span>
-            <span class="year">Year</span>
-            <span class="genre">Genre</span>
-            <span class="duration">Duration</span>
-          </div>
-          <p class="actors">Actors</p>
-        </div>
-        <span class="movie-score">⭐ movie-score</span>
-      </li>
     </ul>
+
+    <ul class="movie-list">
+        <!-- Movie Item 1 -->
+        <li class="movie-item">
+          <img src="image.jpg" alt="Alt name here" class="movie-poster">
+          <div class="movie-details">
+            <h3 class="movie-title">Movie Name Here</h3>
+            <div class="movie-info">
+              <span class="rating">Rating</span>
+              <span class="year">Year</span>
+              <span class="genre">Genre</span>
+              <span class="duration">Duration</span>
+            </div>
+            <p class="actors">Actors</p>
+            <button class="more-details-button">More Details</button>
+          </div>
+          <span class="movie-score">⭐ movie-score</span>
+        </li>
+  
+        <!-- Repeat similar structure for other movies -->
+  
+      </ul>
+
+      <ul class="movie-list">
+        <!-- Movie Item 1 -->
+        <li class="movie-item">
+          <img src="image.jpg" alt="Alt name here" class="movie-poster">
+          <div class="movie-details">
+            <h3 class="movie-title">Movie Name Here</h3>
+            <div class="movie-info">
+              <span class="rating">Rating</span>
+              <span class="year">Year</span>
+              <span class="genre">Genre</span>
+              <span class="duration">Duration</span>
+            </div>
+            <p class="actors">Actors</p>
+            <button class="more-details-button">More Details</button>
+          </div>
+          <span class="movie-score">⭐ movie-score</span>
+        </li>
+  
+        <!-- Repeat similar structure for other movies -->
+  
+      </ul>
+    
+    <!-- Add Movie Button -->
+    <button class="add-movie-button">Add Movie</button>
   </div>
-  <!-- JavaScript Link --> 
+
+  <!-- JavaScript Link -->
   <script src="script.js"></script>
 </body>
 </html>
